@@ -3,3 +3,10 @@ appsettings.Development.json
 appsettings.Production.json
 appsettings.Local.json
 appsettings.json
+
+bin/
+obj/
+Debug/
+Release/
+*.user
+*.suo
