@@ -1,0 +1,47 @@
+/* Shared language control and logical layout adjustments for both applications. */
+.pack-details{font-size:12px;line-height:1.6;margin:12px 0}.pack-details ul{padding-inline-start:18px;margin:8px 0}.pack-details p{margin:8px 0}.pack-details del{color:var(--muted);margin-inline-end:8px}.category-packs{background:#34340d}.pack-item-editor{display:grid;grid-template-columns:minmax(0,1fr) 100px 36px;gap:12px;align-items:center}.pack-panel>.error-notice{margin:16px}.pack-panel .cell-subtitle{max-width:250px;white-space:normal}.catalog-controls{flex-wrap:wrap}.category-tabs{flex:1 1 100%}.category-tabs button{flex:0 1 auto}.pack-panel .row-actions{flex-wrap:wrap}
+.language-switcher{position:relative;display:inline-flex;align-items:center;gap:7px;flex-shrink:0;font-size:12px;font-weight:650;border:1px solid #cbcbbd;border-radius:999px;background:#fff;color:var(--black);min-height:40px;padding-inline-start:13px;box-shadow:0 4px 14px #1111110a;transition:border-color .2s,box-shadow .2s,transform .2s}
+.language-switcher:hover,.language-switcher:focus-within{border-color:#a9a30e;box-shadow:0 5px 18px #11111116;transform:translateY(-1px)}
+.language-switcher select{appearance:none;-webkit-appearance:none;font:inherit;border:0;outline:0;padding:9px 32px 9px 2px;background:transparent;color:inherit;min-height:38px;max-width:118px;cursor:pointer}
+.language-switcher select option{background:#fff;color:#171717}
+.language-icon{color:#99930b;flex-shrink:0}.language-chevron{position:absolute;inset-inline-end:11px;pointer-events:none;color:#77776d}
+.store-header{gap:18px}.store-header nav{gap:20px}
+.store-header .language-switcher{background:#24241f;border-color:#4b4b40;color:#fff;box-shadow:none}.store-header .language-switcher:hover,.store-header .language-switcher:focus-within{border-color:var(--yellow)}.store-header .language-switcher>span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.store-header .language-switcher select option{background:#24241f;color:#fff}.store-header .language-chevron{color:#c9c9b9}.store-header .language-icon{color:var(--yellow)}
+.login-panel .language-switcher{display:flex;flex-direction:row;justify-content:flex-end;margin-bottom:30px}
+.brand,.table-monogram,.cart-monogram{direction:ltr}
+.product-art,.product-name,table,.admin-sidebar nav>button{text-align:start}
+.align-right{text-align:end}
+.category-tabs{min-width:0}.category-tabs button{white-space:normal}
+.product-meta{flex-wrap:wrap}.art-top{letter-spacing:.5px}
+.art-type{font-size:clamp(34px,4.3vw,62px)}
+.hero h1{font-size:clamp(55px,6.4vw,96px)}
+.form-actions{flex-wrap:wrap}.form-actions .button{gap:10px}
+input[type=tel]{direction:ltr;text-align:start}
+[dir=rtl]{font-family:Tahoma,Arial,sans-serif}
+[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] .art-type,[dir=rtl] .category-strip button,[dir=rtl] .sidebar-stamp{font-family:Tahoma,Arial,sans-serif;line-height:1.55;letter-spacing:0}
+[dir=rtl] .eyebrow,[dir=rtl] .announcement,[dir=rtl] .art-top,[dir=rtl] .frame-foot,[dir=rtl] .hero-index,[dir=rtl] .sidebar-caption,[dir=rtl] thead{letter-spacing:0;line-height:1.7}
+[dir=rtl] .hero h1{font-size:clamp(38px,5vw,72px)}
+[dir=rtl] .login-brand h1{font-size:clamp(38px,5vw,72px)}
+[dir=rtl] .section-heading h2{font-size:40px}
+[dir=rtl] .statement h2{font-size:35px}
+[dir=rtl] .art-type{font-size:36px;line-height:1.3}
+[dir=rtl] .art-type>span{font-size:20px;letter-spacing:0}
+[dir=rtl] .category-strip button{font-size:20px;border-left:0;border-right:1px solid #a8a20f;padding:0 25px 0 12px}
+[dir=rtl] .announcement-right,[dir=rtl] .admin-sidebar nav>button>span,[dir=rtl] .admin-sidebar nav>button>svg:last-child:not(:first-child){margin-left:0;margin-right:auto}
+[dir=rtl] .store-footer>p{margin-left:0;margin-right:auto}
+[dir=rtl] .floating-bag{right:auto;left:24px}
+[dir=rtl] .admin-sidebar{right:0;left:auto}
+[dir=rtl] .admin-workspace{margin-left:0;margin-right:240px}
+[dir=rtl] .sidebar-stamp>span{right:auto;left:0}
+[dir=rtl] .lucide-arrow-right,[dir=rtl] .lucide-arrow-up-right{transform:scaleX(-1)}
+[dir=rtl] .hero-brand{transform:none}
+[dir=rtl] .brand-frame{transform:rotate(7deg)}
+[dir=rtl] .vertical-word{right:auto;left:-7px}
+[dir=rtl] .frame-foot,[dir=rtl] .frame-label{left:auto;right:28px}
+[dir=rtl] .brand-frame>svg{right:auto;left:24px}
+[dir=rtl] .statement-mark{right:auto;left:8%}
+@media(max-width:1200px){[dir=rtl] .admin-workspace{margin-right:205px}.store-header{flex-wrap:wrap;height:auto;padding-top:17px;padding-bottom:15px}.store-header nav{order:4;width:100%;justify-content:center}.store-header .language-switcher{margin-inline-start:auto}}
+@media(max-width:1050px){[dir=rtl] .category-strip button:first-of-type{border:0;padding-right:0}}
+@media(max-width:800px){[dir=rtl] .admin-workspace{margin-right:76px}}
+@media(max-width:760px){.store-header{gap:12px}.store-header nav{gap:12px;font-size:11px;flex-wrap:wrap}.store-header .language-switcher select{max-width:90px;font-size:11px}.bag-button{gap:5px;font-size:12px}.store-header .brand>span{font-size:15px}.store-header .brand>img{width:30px}.store-header .brand{gap:6px}.hero h1{font-size:60px}.category-strip button{font-size:17px;padding-inline-start:8px;gap:5px}.category-tabs button{flex:1 1 40%}.result-controls{flex-wrap:wrap;gap:12px}.result-controls>div{flex-wrap:wrap}.product-meta{min-height:26px}.product-bottom{flex-wrap:wrap}.art-type{font-size:39px}.art-type>span{font-size:20px}.sold-out-banner{font-size:12px;letter-spacing:.5px}.statement h2{font-size:34px}[dir=rtl] .category-strip button{font-size:13px;padding:0 8px 0 0}[dir=rtl] .art-type{font-size:30px}[dir=rtl] .art-type>span{font-size:15px}[dir=rtl] .store-footer>p{margin-right:0;margin-left:auto}[dir=rtl] .statement-mark{left:-5%}}
+@media(max-width:560px){[dir=rtl] .admin-workspace{margin-right:0}[dir=rtl] .sidebar-bottom{margin:0 auto 0 0}.admin-topbar{gap:12px}.admin-topbar>span>span{padding:0 5px}.admin-topbar .language-switcher>span{display:none}.table-toolbar>div{flex-wrap:wrap}.table-toolbar>div>select{max-width:150px}.admin-footer{gap:12px}.metrics>div>span{gap:6px}.modal-heading h2{overflow-wrap:anywhere}[dir=rtl] .modal-heading h2{font-size:24px}[dir=rtl] .section-heading h2{font-size:30px}[dir=rtl] .statement h2{font-size:28px}[dir=rtl] .floating-bag{left:16px}}

@@ -1,0 +1,5 @@
+.editor-form input[type="file"] { padding: 10px; background: #f7f7f2; }
+.editor-form label > small { display: block; margin-top: 7px; font-size: 10px; }
+.image-editor-preview { display: flex; align-items: center; gap: 14px; padding: 10px; border: 1px solid var(--line); border-radius: 4px; }
+.image-editor-preview > img { width: 80px; height: 70px; object-fit: cover; border-radius: 3px; }
+.image-editor-preview > label { margin: 0; }

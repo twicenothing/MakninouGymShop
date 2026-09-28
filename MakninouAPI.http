@@ -1,0 +1,6 @@
+@MakninouAPI_HostAddress = http://localhost:5167
+
+GET {{MakninouAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
