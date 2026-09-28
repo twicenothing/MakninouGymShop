@@ -1,2 +1,0 @@
-wwwroot\uploads\products\README.txt
-C:\Users\Omen\source\repos\cs13net9\MakninouAPI\MakninouAPI\wwwroot\uploads\products\README.txt
